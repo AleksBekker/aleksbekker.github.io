@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+    --font-mono: "IBM Plex Mono", monospace;
+    --color-rpi-red: #d6001c;
+    --color-rpi-silver: #e1edf5;
+    --color-rsei-orange: #ff5d01;
+
+    --color-accent: var(--color-rpi-red);
+}
