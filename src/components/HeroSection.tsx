@@ -20,25 +20,21 @@ export const HeroSection = () => {
               experience. My work combines usability with thoughtful design.
             </p>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+              <a
+                href="/AleksBekker_Resume.pdf"
+                className="px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-red-700 transition-colors"
+              >
+                Resume
+              </a>
               <button
                 onClick={() =>
                   document.getElementById("portfolio")?.scrollIntoView({
                     behavior: "smooth",
                   })
                 }
-                className="px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-red-700 transition-colors"
-              >
-                My Work
-              </button>
-              <button
-                onClick={() =>
-                  document.getElementById("contact")?.scrollIntoView({
-                    behavior: "smooth",
-                  })
-                }
                 className="px-8 py-3 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors"
               >
-                Contact Me
+                My Work
               </button>
             </div>
           </div>
